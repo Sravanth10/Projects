@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://img.freepik.com/premium-photo/violet-mountain-silhouette-background-ai-generated_946993-1440.jpg');
+  display:flex;
+background-size: 100% 140%;
+background-repeat: no-repeat;
+opacity: 0.85;
+}
+.top{
+  display: block;
+  
+}
+#fullscreenButton{
+  
+  margin-top: 20px;
+  margin-left: 20px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  background-color:rgb(136, 72, 205);
+  transition: 0.4s;
+  border-radius: 90px;
+}
+
+#fullscreenMessage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f00;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: none;
+  cursor: default; /* Disable cursor for the message */
+}
+
+#closeButton {
+  position: fixed;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+#left_div {
+  margin-top: 50px;
+  width: 20%;
+  display: inline-block;
+  flex: 1;
+  box-sizing: border-box;
+  padding: 10px;
+  
+}
+
+#right_div {
+  height: 100%;
+  flex:1;
+  width: 40%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 30px;
+  overflow: visible;
+}
+
+
+
+#spot{
+  overflow:hidden;
+  display: flex;
+  
+  
+}
+
+
+
+#timer {
+  color: white;
+  background: linear-gradient(45deg, #3498db, #e74c3c);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+display: flex;
+  font-size: 36px;
+margin-left: 360px;
+justify-content: center;
+align-items: center;
+margin-top:30px;
+  margin-bottom: 30px;
+width: 200px;
+height: 200px;
+  border: 8px solid rgba(153,171,235,255); /* Circular border color */
+  border-radius: 50%; /* Make it circular */
+  padding: 15px;
+  transition: all 0.3s ease; /* Add transition effect for smoother changes */
+  animation: pulse 2s infinite alternate; /* Add pulsating animation */ 
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 10px rgba(153,171,235,0.8); }
+  50% { box-shadow: 0 0 20px rgba(153,171,235,1), 0 0 30px rgba(153,171,235,0.8); }
+  100% { box-shadow: 0 0 10px rgba(153,171,235,0.8); }
+}
+#timer:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+  animation: glow 2s infinite ;
+}
+
+#buttons {
+  margin-top: 10px;
+  margin-left: 240px;
+padding: 20px;
+
+}
+
+
+#button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: rgba(153,171,235,255);
+  transition: 0.4s;
+  border-radius: 90px;
+}
+#startbutton{
+  
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: rgba(153,171,235,255);
+    transition: 0.4s;
+    border-radius: 90px;
+  
+}
+#startbutton:hover{
+  background-color: rgba(239,145,137,255);
+  color:white;
+  opacity: 0.8;
+}
+#startbutton:active{
+  opacity: 0.6;
+}
+
+#button:hover{
+  background-color: rgba(239,145,137,255);
+  color:white;
+  opacity: 0.8;
+}
+#button:active{
+  opacity: 0.6;
+}
+/* Style for the input fields */
+input{
+padding: 8px;
+margin: 5px;
+margin-left: 360px;
+border: 1px solid #60f1f3;
+border-radius: 4px;
+box-sizing: border-box;
+
+}
+
+#back{
+  
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color:grey;
+  transition: 0.4s;
+  border-radius: 90px;
+}
+/* Style for the label associated with the input fields */
+label {
+margin-bottom: 5px;
+margin-left: 360px;
+display: flex;
+color: white;
+}
+
+#right_div {
+  position: absolute;
+  top: 0; /* Adjust the top position as needed */
+  right: 0; /* Position the div to the right side of the page */
+  padding: 10px; /* Add some padding for spacing */
+}
+
+
+@keyframes pulse {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.1);
+  }
+}
