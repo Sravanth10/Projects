@@ -1,4 +1,4 @@
-The Repository consists of most of my projects and works in which I have significant 
+The Repository consists of most of my projects (2022-present) and works in which I have significant 
 contributions and I have gained a lot of project-centric knowledge through exploration
 and the learning process.
 
