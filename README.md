@@ -17,3 +17,8 @@ Our proposed Solution was shortlisted among the 500+ teams and we were one of th
 to take part in the Hackathon.
 Frontend implementation using **ReactJS**
 
+**MINI Project** - **Emotion Recognition & Depression Detection**
+This is a Deep learning Project that my team has taken up involving F2F interviews/surveys, creating a hybrid datsaet, 
+training the dataset, performing Facial Emotion Recoginition and performing analysis to detect individuals with 
+subdued emotions in a long run, possibly depressed. So that necessary actions can be taken in their best regards.
+
