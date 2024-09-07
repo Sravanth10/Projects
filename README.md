@@ -1,4 +1,6 @@
 **ALL CERTIFICATES HAVE BEEN ADDED AS WELL**
+
+
 The Repository consists of most of my projects (2022-present) and works in which I have significant 
 contributions and I have gained a lot of project-centric knowledge through exploration
 and the learning process.
