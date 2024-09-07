@@ -1,0 +1,19 @@
+.cont{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 14rem;
+    padding-bottom: 8rem;
+    padding-left: 7rem;
+    padding-right: 8rem;
+    top: 50%;
+    text-align: center;
+}
+
+.cont h1{
+    font-size: 3rem;
+}
+
+.cont p{
+    font-size: 1.4rem;
+}
