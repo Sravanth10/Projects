@@ -1,0 +1,294 @@
+#bgimg{
+    display: flex;
+    max-height: 200vh;
+    max-width: 200vh;
+    background-image: url('https://wallpapers-clan.com/wp-content/uploads/2023/02/lavender-aesthetic-wallpaper.jpg');
+    flex-direction: column;
+    background-position: center;
+    /*
+    background:rgba(124, 88, 126, 255) ;*/
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.6;
+}
+
+body{
+    
+    
+    background-color: rgba(124, 88, 126, 255);
+    
+}
+.date-cont{
+    height: 220px;
+    margin: auto;
+    display: block;
+    max-width: 220px;
+    border:20px;
+    color: #080707;
+    font-size: 25px;
+  padding: 24px;
+  margin-top: 70px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #3498db, #e74c3c);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.time{
+    font-size: 40px;
+    font-weight: 100;
+    display: flex;
+    margin: 30px;
+    
+    
+    color: rgb(244, 246, 246);
+
+}
+
+.dates{
+    margin: 12px;
+    size: 40px;
+}
+
+.container{
+    width: 100%;
+    max-width: 540px;
+    background: #f7f6f6;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    
+}
+.todo_app h2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.todo_app h2 img{
+    width: 45px;
+    margin-left: 10px;
+}
+#new_form{
+    display: flex;
+}
+input,button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+#new_taskinput{
+    flex: 1 1 0%;
+    background-color: rgba(99, 99, 99, 0.419);
+    opacity: 1;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+}
+#new_task_submit{
+    color: bisque;
+    font-size: 20px;
+    background:rgba(239,145,137,255);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#new_task_submit:hover{
+    opacity: 0.8;
+}
+#new_task_submit:active{
+    opacity: 0.6;
+}
+
+main{
+    flex: 1 1 0%;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.task_list{
+    padding: 1rem;
+
+}
+
+#tasks .task{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4eded;
+    padding: 1rem;
+    border-radius:1rem ;
+    margin-bottom: 1rem;
+
+}
+
+#tasks .task .content .text{
+    color: rgb(97, 96, 96);
+    font-size: 20px;
+    width: 100%;
+    display: block;
+    transition: 0.4s;
+}
+#tasks .task .actions{
+    display: flex;
+    margin: 0 -0.5rem;
+}
+#back{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color:grey;
+    transition: 0.4s;
+    border-radius: 90px;
+    width: fit-content;
+  }
+.task .actions button{
+    cursor: pointer;
+    margin: 0 0.5rem;
+    text-transform: uppercase;
+    transition: 0.4s;
+
+}
+.task .actions button:hover{
+    opacity:0.8;
+}
+.task .actions button:active{
+    opacity:0.6;
+}
+
+.task .actions .edit{
+    background-image: linear-gradient(30deg,rgb(63, 20, 231),rgb(212, 49, 174) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.task .actions .delete{
+    background: red;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#tasks .task .content{
+    flex: 1 1 0%;
+    
+}
+
+#info{
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2{
+    align-items: center;
+    display: flex;
+}
+
+#headd{
+    text-align: center;
+    justify-content: center;
+}
+
+/* Add these styles to your existing CSS or create a new stylesheet */
+
+/* Style for the alarm input label */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Style for the alarm input field */
+#alarmTime {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Optional: Style for the task items and other elements */
+.task {
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 70%;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit, .delete {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.edit:hover, .delete:hover {
+    background-color: #2980b9;
+}
+
+/* Your existing CSS code */
+
+/* Add this to your existing CSS or create a new todesign.css file */
+.chart-container {
+    display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(45deg, #3498db, #e74c3c); /* Gradient background */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  color: #fff; /* Text color */
+  max-width: 400px; /* Adjust the maximum width as needed */
+  text-align: center;
+  animation: fadeInUp 0.5s ease-out;
+  }
+
+  
+  
+  
+
+  #openChartButton {
+    margin: auto;
+    padding: 10px 20px;
+    width: 100px;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  #openChartButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  
+  #doughnutChart {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #closeChartButton {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    color: red;
+  }
+  

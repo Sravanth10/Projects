@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./home.css">
+    <title>ConcentriQ</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="http://127.0.0.1:5500/pomodoro/pomo.html">Timer</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="http://127.0.0.1:5500/api/todo.html">To-Do list</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="#">Chat Rooms</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header><br>
+        <img id="icon1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFeP61MXWXzmiZ_Ml2lhB0I16YTl3l0TUXa2rxHrX0kzRJAPMU5FBv8T7FMZVRiWH31G4&usqp=CAU" alt="" class="rounded-circle mt-2" width="250px" height="250px">
+        <div id="iconpara" ><h1 id="maint">Concentri-Q</h1>A focus oriented app<br><br></div>
+      </header>
+
+    <!-- main content -->
+    <div id="down">
+        <div class="container main my-3">
+
+            <!-- carousel -->
+            <div id="cara">
+                <div class="carousel slide mt-5" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img id="pic" height="500px" src="https://website-cdn.studysmarter.de/sites/2/uk/Pomodoro-Technique2.webp" class="d-block w-50 mx-auto" alt="">
+                        </div>
+                        <!-- Add more carousel items as needed -->
+                        <div class="carousel-item" data-bs-interval="3000">
+                          <img id="pic" height="500px" src="https://imageio.forbes.com/specials-images/dam/imageserve/1092571024/960x0.jpg?height=474&width=711&fit=bounds" class="d-block w-50 mx-auto" alt="">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                          <img id="pic" height="500px" src="https://codecanyon.img.customer.envatousercontent.com/files/442831655/00_preview.png?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=261c5c75a636951f0df6d10d9f5234c8" class="d-block w-50 mx-auto" alt="">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                          <img id="pic" height="500px" src="https://static.twproject.com/blog/wp-content/uploads/2022/02/progress-2.png" class="d-block w-50 mx-auto" alt="">
+                      </div>
+              
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pomodoro Timer Section -->
+            <section id="pomodoro-section" class="my-5">
+                <h1>Pomodoro Timer</h1>
+                <h3>
+                    The Pomodoro Technique is a time management method that uses a timer to break down work into intervals,
+                    traditionally 25 minutes in length, separated by short breaks.
+                    The method is named after the Italian word for "tomato" because of the tomato-shaped kitchen timer that the inventor used.
+                </h3>
+                <a href="http://127.0.0.1:5500/pomodoro/pomo.html" class="btn btn-primary">Visit Pomodoro Timer >></a>
+                <!-- Add more details about the Pomodoro Timer here -->
+            </section>
+
+            <!-- Task Manager Section -->
+            <section id="task-manager-section" class="my-5">
+                <h1>Task Manager</h1>
+                <h3>
+                    A task manager is a tool that helps you organize and keep track of your tasks and activities.
+                    It allows you to create, update, and prioritize tasks, making it easier to manage your workload and stay productive.
+                </h3>
+                <!-- Add more details about the Task Manager here -->
+                <a href="http://127.0.0.1:5500/api/todo.html" class="btn btn-primary">Visit Task Manager >></a>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
